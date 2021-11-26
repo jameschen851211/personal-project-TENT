@@ -46,7 +46,7 @@ const mapContainerStyle = {
 
 export default function App(props) {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAAuyNVSxdv2VTjUe_N7hyH8drXIoypa_E",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLEMAP_KEY,
     libraries,
   });
 

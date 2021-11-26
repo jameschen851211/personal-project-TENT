@@ -47,33 +47,13 @@ const mapContainerStyle = {
 export default function App(props) {
   console.log(props);
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAAuyNVSxdv2VTjUe_N7hyH8drXIoypa_E",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLEMAP_KEY,
     libraries,
   });
 
   const [selected, setSelected] = useState(null);
-  const [places, setPlaces] = useState([]);
-
-  //   useEffect(() => {
-  //     firebase
-  //       .firestore()
-  //       .collection("product")
-  //       .onSnapshot((collectionSnapshot) => {
-  //         const data = collectionSnapshot.docs.map((docSnapshot) => {
-  //           const id = docSnapshot.id;
-  //           return { ...docSnapshot.data(), id };
-  //         });
-  //         setPlaces(data);
-  //         console.log(data);
-  //       });
-  //   }, []);
-
   if (loadError) return "Error";
   if (!isLoaded) return "Loading...";
-
-  //   console.log(nearby);
-  //   console.log(selected);
-
   return (
     <div>
       <GoogleMap
@@ -85,13 +65,7 @@ export default function App(props) {
           lng: 120.97561230851146,
         }}
         clickableIcons={false}
-        // onLoad={onMapLoad}
       >
-        {/* <Marker
-          position={currentLocation}
-          draggable={true}
-          onDragEnd={(coords) => dragMarker(coords)}
-        /> */}
         {props.search.map((marker) => (
           <Marker
             key={marker.placeId}
