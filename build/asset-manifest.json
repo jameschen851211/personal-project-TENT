@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0234d64d.chunk.css",
+    "main.js": "/static/js/main.5599387d.chunk.js",
+    "main.js.map": "/static/js/main.5599387d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
+    "static/css/2.d9632a4e.chunk.css": "/static/css/2.d9632a4e.chunk.css",
+    "static/js/2.4ff8a449.chunk.js": "/static/js/2.4ff8a449.chunk.js",
+    "static/js/2.4ff8a449.chunk.js.map": "/static/js/2.4ff8a449.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d9632a4e.chunk.css.map": "/static/css/2.d9632a4e.chunk.css.map",
+    "static/css/main.0234d64d.chunk.css.map": "/static/css/main.0234d64d.chunk.css.map",
+    "static/js/2.4ff8a449.chunk.js.LICENSE.txt": "/static/js/2.4ff8a449.chunk.js.LICENSE.txt",
+    "static/media/camping-tent.c468a053.png": "/static/media/camping-tent.c468a053.png",
+    "static/media/giphy.c4e03689.gif": "/static/media/giphy.c4e03689.gif",
+    "static/media/img-2.bb238fc1.jpeg": "/static/media/img-2.bb238fc1.jpeg",
+    "static/media/img-7.dfeef525.jpeg": "/static/media/img-7.dfeef525.jpeg",
+    "static/media/img-9.f97f588f.jpeg": "/static/media/img-9.f97f588f.jpeg",
+    "static/media/logo.ccb41b17.png": "/static/media/logo.ccb41b17.png",
+    "static/media/tent.1b8c538d.png": "/static/media/tent.1b8c538d.png",
+    "static/media/video-3.c9eca0ff.mp4": "/static/media/video-3.c9eca0ff.mp4",
+    "static/media/video-4.8be5d132.mp4": "/static/media/video-4.8be5d132.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2e8e232.js",
+    "static/css/2.d9632a4e.chunk.css",
+    "static/js/2.4ff8a449.chunk.js",
+    "static/css/main.0234d64d.chunk.css",
+    "static/js/main.5599387d.chunk.js"
+  ]
+}

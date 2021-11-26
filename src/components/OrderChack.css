@@ -1,0 +1,78 @@
+.order {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  width: 60%;
+}
+
+.order__title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.order__date,
+.order__guests {
+  /* margin-top: px; */
+  margin-bottom: 20px;
+}
+
+.order__date__date,
+.order__guests_guests {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.order__date__range,
+.order__guests__number {
+  color: gray;
+  margin-bottom: 4px;
+}
+
+/* .order__pay__creditcard {
+  width: 60%;
+} */
+
+.inputs {
+  display: flex;
+  height: 30px;
+  width: 120%;
+  margin-top: 10px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: white;
+  margin-right: 13px;
+  background-color: #00bfac;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.order__room {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+/* .room__box {
+  border-radius: 7px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(221, 221, 221);
+  width: 300px;
+  height: 330px;
+  text-align: center;
+} */
+
+/* .room__img {
+  margin-top: 15px;
+  width: 140px;
+  height: 130px;
+  border-radius: 10px;
+} */
