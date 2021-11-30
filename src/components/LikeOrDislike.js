@@ -50,8 +50,6 @@ const LikeOrDislike = () => {
         }
       >
         <strong>✔︎</strong>
-        {/* &nbsp;|&nbsp;
-        {likes} */}
       </button>
       <button
         style={{

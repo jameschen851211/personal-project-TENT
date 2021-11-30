@@ -68,66 +68,12 @@ const NativeLoginBtn = styled.div`
   font-size: 18px;
 `;
 
-// const FacebookLoginBtn = styled.div`
-//   color: white;
-//   padding: 12px 20px;
-//   border: 1px gray;
-//   border-radius: 3px;
-//   text-align: center;
-//   cursor: pointer;
-//   margin-top: 10px;
-//   font-weight: bold;
-//   background: #002b7a;
-//   font-size: 20px;
-// `;
-// const GoogleLoginBtn = styled.div`
-//   color: white;
-//   padding: 12px 20px;
-//   border: 1px gray;
-//   border-radius: 3px;
-//   text-align: center;
-//   cursor: pointer;
-//   margin-top: 10px;
-//   font-weight: bold;
-//   background: black;
-//   font-size: 20px;
-// `;
-
 function BackLogin() {
   const history = useHistory();
   const [LoginEmail, setLoginEmail] = React.useState("");
   const [LoginPassword, setLoginPsaaword] = React.useState("");
   const [errorMessage, setErrorMessage] = React.useState("");
   const [owner, setOwner] = React.useState("");
-
-  //   var fbProvider = new firebase.auth.FacebookAuthProvider();
-  //   const fbLogin = () => {
-  //     firebase
-  //       .auth()
-  //       .signInWithPopup(fbProvider)
-  //       .then((user) => {
-  //         console.log(user);
-  //         // createUserDoc(user, userName);
-  //       })
-  //       .catch((error) => {
-  //         console.log(error);
-  //       });
-  //   };
-
-  //   const googleProvider = new firebase.auth.GoogleAuthProvider();
-  //   const googleLogin = () => {
-  //     firebase
-  //       .auth()
-  //       .signInWithPopup(googleProvider)
-  //       .then((user) => {
-  //         console.log(user);
-  //         history.push("/");
-  //         // createUserDoc(user, userName);
-  //       })
-  //       .catch((error) => {
-  //         console.log(error);
-  //       });
-  //   };
 
   function onSubmit() {
     firebase
@@ -140,29 +86,6 @@ function BackLogin() {
         alert("TENT後台成功登入");
         history.push("/backstage");
       });
-
-    // firebase
-    //   .auth()
-    //   .signInWithEmailAndPassword(LoginEmail, LoginPassword)
-    //   .then(() => {
-    //     history.push("/");
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //     switch (error.code) {
-    //       case "auth/invalid-email":
-    //         setErrorMessage(" Incorrect Email format");
-    //         break;
-    //       default:
-    //     }
-
-    //     switch (error.code) {
-    //       case "auth/wrong-password":
-    //         setErrorMessage(" Wrong password");
-    //         break;
-    //       default:
-    //     }
-    //   });
   }
 
   return (
@@ -172,8 +95,6 @@ function BackLogin() {
       <LogInSubTitle>Build your campground.</LogInSubTitle>
 
       <form>
-        {/* <GoogleLoginBtn onClick={googleLogin}>Google log in</GoogleLoginBtn>
-        <FacebookLoginBtn onClick={fbLogin}>Facebook log in</FacebookLoginBtn> */}
         <form>
           <Email>
             <LogInput

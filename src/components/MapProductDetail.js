@@ -67,11 +67,6 @@ export default function App() {
         clickableIcons={false}
         // onLoad={onMapLoad}
       >
-        {/* <Marker
-          position={currentLocation}
-          draggable={true}
-          onDragEnd={(coords) => dragMarker(coords)}
-        /> */}
         {places.map((marker) => (
           <Marker
             key={marker.placeId}

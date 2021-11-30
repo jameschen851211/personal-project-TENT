@@ -312,8 +312,6 @@ function RoomDetail() {
   const { url } = useRouteMatch();
   const history = useHistory();
 
-  // const [count, setCount] = useState(0);
-
   React.useEffect(() => {
     firebase
       .firestore()
@@ -323,11 +321,6 @@ function RoomDetail() {
         const data = docSnapshot.data();
         setItem(data);
       });
-    // .get()
-    // .then((docSnapshot) => {
-    //   const data = docSnapshot.data();
-    //   setItem(data);
-    // });
   }, []);
 
   React.useEffect(() => {
