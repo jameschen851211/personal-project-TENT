@@ -38,9 +38,6 @@ The website collects a wide range of campsite information, making it easier for 
   - reactjs-popup
   - google-map-react
   - react-places-autocomplete
-
-## Flow Chart
-
 <!-- ![ ](https://firebasestorage.googleapis.com/v0/b/room-801fb.appspot.com/o/demo%2Fflow_chart.jpeg?alt=media&token=f0740417-de48-40d2-9da8-63b5e49f2dd3) -->
 
 ## Features
