@@ -6,22 +6,19 @@ The website collects a wide range of campsite information, making it easier for 
 - Created excellent user experience on mobile by `RWD`
 - Used `Firebase Firestore` for data management
 - Connected with `Google Map API` to display marker on the page
-- Built a management page, for the campsite owner to add/update/delete product information
+- Built a `management page`, for the campsite owner to add/update/delete product information
 - Integrated `Algolia` to optimize website's search function
 
 
 ## Demo
 
-- Link: <https://room-801fb.web.app/>
-
-- Test Account
-  - User: user@gmail.com
-  - Password: batch13
+- Link: https://tent-eb6c2.web.app
+- Management Page Link: https://tent-eb6c2.web.app/backstage
 
 ## Technologies
 
 - Fundamental
-  - HTML5 / CSS3 / JavaScript ES6
+  - HTML5 / CSS3 / JavaScript ES6+
   - Responsive Web Design
 - Frameworks
   - React
@@ -36,11 +33,11 @@ The website collects a wide range of campsite information, making it easier for 
   - Hosting
 - Third Party Libraries
   - react-dnd
-  - react-joyride
-  - Pixi.js
-  - pixi-filters
-  - Three.js
-  - three-csg-ts
+  - react-nice-dates
+  - react-slick
+  - reactjs-popup
+  - google-map-react
+  - react-places-autocomplete
 
 ## Flow Chart
 
